@@ -1,0 +1,72 @@
+{
+  "variables": {
+    "time": "time",
+    "city":"city",
+    "stat": "stat",
+    "minTemp": "minTemp",
+    "maxTemp": "maxTemp",
+    "minHum": "minHum",
+    "maxHum": "maxHum",
+    "minWindSpeed": "minWindSpeed",
+    "maxWindSpeed": "maxWindSpeed",
+    "avgTemp": "avgTemp",
+    "avgHum": "avgHum",
+    "avgWindSpeed": "avgWindSpeed",
+    "temp": "temp",
+    "humidity": "humidity",
+    "windSpeed": "windSpeed",
+    "pressure": "pressure",
+    "windDir": "windDir",
+    "clouds": "clouds",
+    "fallOut": "fallOut",
+    "date": "date",
+    "cityName": "cityName",
+    "sourceAPI": "sourceAPI",
+    "coords": "coords",
+    "lon": "lon",
+    "lat": "lat",
+    "date": "date",
+    "succes": 200,
+    "coding": "utf8",
+    "service": "service",
+    "min_": "min_",
+    "max_": "max_",
+    "avg_": "avg_",
+    "decimal": 10,
+    "mSecToSec": 1000,
+    "fahrenheitToCelsius": 273.15,
+    "metersInSecToKmH": 3.6,
+    "milesToKm": 1.609344
+  },
+  "messages": {
+      "fs": {
+          "cantReadFile": "Can not read from file ",
+          "cantWriteToFile": "Failed saving data to file, data: "
+      },
+      "logger": {
+        "error": "ERROR",
+        "warning": "WARNING",
+        "debug": "DEBUG",
+        "info": "INFO",
+        "failToWrite": "Failed to write log"
+      }
+  },
+  "dayStart": {
+    "hour": 0,
+    "mins": 0,
+    "sec": 0,
+    "mSec": 0
+  },
+  "dayEnd": {
+    "hour": 23,
+    "mins": 59,
+    "sec": 59,
+    "mSec": 999
+  },
+  "cronTask": {
+    "everyDay": "0 0 0 * * *",
+    "everyMonth": "0 0 0 1 * *",
+    "everyFourHours": "0 0 */4 * * *"
+  },
+  "lastWeatherUpdateTime": 0
+}

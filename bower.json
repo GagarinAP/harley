@@ -1,0 +1,27 @@
+{
+  "name": "harley",
+  "description": "Gulp builder for weather app",
+  "main": "index.html",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Gulp"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "underscore": "^1.8.3",
+    "backbone": "1.2.3",
+    "leaflet": "0.7.x",
+    "chart.js": "^2.4.0",
+    "bootstrap": "^3.3.7"
+  }
+}

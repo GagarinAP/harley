@@ -1,0 +1,90 @@
+
+  {
+    "leafletConfig": {
+      "imagePath": "./img/leaflet/",      
+      "lat": 50.15,
+      "lng": 27.37,
+      "zoom": 7,
+      "accessToken": "pk.eyJ1IjoiYW5keWtobWFyYSIsImEiOiJjaXVscXF5NTkwMDBiMm9waWlhamZldHB2In0.4ooYXIW33pagGNU4r9Hggw"
+    },
+    "cities": [
+      {
+        "name": "Rivne",
+        "wundergroundName" : "",
+        "xCords": 50.630694,
+        "yCords": 26.239034
+      },
+      {
+        "name": "Lutsk",
+        "wundergroundName" : "Luts'k",
+        "xCords": 50.73977,
+        "yCords": 25.2639655
+      },
+      {
+        "name": "Kiev",
+        "wundergroundName" : "",
+        "xCords": 50.4308286,
+        "yCords": 30.4966362
+      }
+    ],
+    "services": [
+      {
+        "name": "openWeather",
+        "urlPart1": "http://api.openweathermap.org/data/2.5/weather?q=",
+        "urlPart2": ",ua&APPID=3e78ad2536ed323a1c1e68f8512485b0",
+        "variables": {
+          "fallOut": [
+            {
+              "name": "rain",
+              "array": ["Thunderstorm", "Rain"]
+            },
+            {
+              "name":"snow",
+              "array": ["Snow"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "wunderground",
+        "urlPart1": "http://api.wunderground.com/api/3a12f2714ca1b6e2/conditions/q/UA/",
+        "urlPart2": ".json",
+        "variables": {
+          "fallOut": [
+            {
+              "name": "rain",
+              "array": ["rain"]
+            },
+            {
+              "name":"snow",
+              "array": ["snow", "sleet"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "darkSky",
+        "urlPart1": "https://api.darksky.net/forecast/73ca2db6aa635b831a24746659e7c907/",
+        "urlPart2": "",
+        "variables": {
+          "fallOut": [
+            {
+              "name": "rain",
+              "array": ["thunderstorm", "rain"]
+            },
+            {
+              "name":"snow",
+              "array": ["sleet", "snow"]
+            }
+          ]
+        }
+      }],
+    "auth": {
+      "facebook": {
+        "clientID": "",
+        "clientSecret": "",
+        "callbackURL": "http://localhost:3000/"
+      }
+    }
+  }
+

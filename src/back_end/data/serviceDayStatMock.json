@@ -1,0 +1,73 @@
+[
+  {
+    "_id" : "58725769cff4351d243896da",
+    "date" : 1483884000,
+    "sourceAPI" : "openWeather",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -13,
+          "max" : -10.66,
+          "avg" : -11.8866666666667
+        },
+        "humidity" : {
+          "min" : 78,
+          "max" : 85,
+          "avg" : 82.3333333333333
+        },
+        "windSpeed" : {
+          "min" : 21.6,
+          "max" : 32.4,
+          "avg" : 27.6
+        }
+      }
+     },
+  {
+    "_id" : "58725769cff4351d243896dc",
+    "date" : 1483886272,
+    "sourceAPI" : "darkSky",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -12.28,
+          "max" : -9.32,
+          "avg" : -11.31
+        },
+        "humidity" : {
+          "min" : 67,
+          "max" : 87,
+          "avg" : 76.1666666666667
+        },
+        "windSpeed" : {
+          "min" : 12.41,
+          "max" : 25.83,
+          "avg" : 19.955
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896db",
+    "date" : 1483886271,
+    "sourceAPI" : "wunderground",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -13,
+          "max" : -8.6,
+          "avg" : -10.4833333333333
+        },
+        "humidity" : {
+          "min" : 79,
+          "max" : 92,
+          "avg" : 85.1666666666667
+        },
+        "windSpeed" : {
+          "min" : 0,
+          "max" : 17.7,
+          "avg" : 8.16666666666667
+        }
+      }
+
+  }
+]

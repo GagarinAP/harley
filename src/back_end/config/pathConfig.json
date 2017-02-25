@@ -1,0 +1,11 @@
+{
+  "dataAfterMapperCollectionName": "unifiedWeather",
+  "CityDayStatistics": "CityDayStatistics",
+  "CityMonthStatistics": "CityMonthStatistics",
+  "ServiceDayStatistics": "ServiceDayStatistics",
+  "ServiceMonthStatisticsByCity": "ServiceMonthStatisticsByCity",
+  "ServiceDayStatisticsByCity": "ServiceDayStatisticsByCity",
+  "ServiceMonthStatistics": "ServiceMonthStatistics",
+  "urlWeatherDataDB": "mongodb://localhost:27017/weatherProject",
+  "urlStatisticsDataDB": "mongodb://localhost:27017/Weather_Statistics"
+}

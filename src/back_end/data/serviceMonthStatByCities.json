@@ -1,0 +1,225 @@
+[
+  {
+    "_id" : "58725769cff4351d243896ee",
+    "date" : 1483886272,
+    "cityName" : "Kiev",
+    "sourceAPI" : "darkSky",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -9.71,
+          "max" : -9.32,
+          "avg" : -9.515
+        },
+        "humidity" : {
+          "min" : 87,
+          "max" : 87,
+          "avg" : 87
+        },
+        "windSpeed" : {
+          "min" : 12.41,
+          "max" : 12.55,
+          "avg" : 12.48
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896ed",
+    "date" : 1483886271,
+    "cityName" : "Kiev",
+    "sourceAPI" : "wunderground",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -10.2,
+          "max" : -10.1,
+          "avg" : -10.15
+        },
+        "humidity" : {
+          "min" : 92,
+          "max" : 92,
+          "avg" : 92
+        },
+        "windSpeed" : {
+          "min" : 9.7,
+          "max" : 9.7,
+          "avg" : 9.7
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896ec",
+    "date" : 1483884000,
+    "cityName" : "Kiev",
+    "sourceAPI" : "openWeather",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -10.66,
+          "max" : -10.66,
+          "avg" : -10.66
+        },
+        "humidity" : {
+          "min" : 85,
+          "max" : 85,
+          "avg" : 85
+        },
+        "windSpeed" : {
+          "min" : 21.6,
+          "max" : 21.6,
+          "avg" : 21.6
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896eb",
+    "date" : 1483886272,
+    "cityName" : "Luts'k",
+    "sourceAPI" : "darkSky",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -12.24,
+          "max" : -12.19,
+          "avg" : -12.215
+        },
+        "humidity" : {
+          "min" : 72,
+          "max" : 72,
+          "avg" : 72
+        },
+        "windSpeed" : {
+          "min" : 25.75,
+          "max" : 25.83,
+          "avg" : 25.79
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896ea",
+    "date" : 1483886271,
+    "cityName" : "Luts'k",
+    "sourceAPI" : "wunderground",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -13,
+          "max" : -12,
+          "avg" : -12.5
+        },
+        "humidity" : {
+          "min" : 79,
+          "max" : 85,
+          "avg" : 82
+        },
+        "windSpeed" : {
+          "min" : 0,
+          "max" : 0,
+          "avg" : 0
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896e8",
+    "date" : 1483886272,
+    "cityName" : "Rivne",
+    "sourceAPI" : "darkSky",
+    "stat" :       {
+        "temp" : {
+          "min" : -12.28,
+          "max" : -12.12,
+          "avg" : -12.2
+        },
+        "humidity" : {
+          "min" : 67,
+          "max" : 72,
+          "avg" : 69.5
+        },
+        "windSpeed" : {
+          "min" : 21.5,
+          "max" : 21.69,
+          "avg" : 21.595
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896e9",
+    "date" : 1483884000,
+    "cityName" : "Luts'k",
+    "sourceAPI" : "openWeather",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -13,
+          "max" : -12,
+          "avg" : -12.5
+        },
+        "humidity" : {
+          "min" : 78,
+          "max" : 84,
+          "avg" : 81
+        },
+        "windSpeed" : {
+          "min" : 28.8,
+          "max" : 32.4,
+          "avg" : 30.6
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896e7",
+    "date" : 1483886271,
+    "cityName" : "Rivne",
+    "sourceAPI" : "wunderground",
+    "stat" :
+      {
+        "temp" : {
+          "min" : -9,
+          "max" : -8.6,
+          "avg" : -8.8
+        },
+        "humidity" : {
+          "min" : 81,
+          "max" : 82,
+          "avg" : 81.5
+        },
+        "windSpeed" : {
+          "min" : 11.9,
+          "max" : 17.7,
+          "avg" : 14.8
+        }
+      }
+
+  },
+  {
+    "_id" : "58725769cff4351d243896e6",
+    "date" : 1483884000,
+    "cityName" : "Rivne",
+    "sourceAPI" : "openWeather",
+    "stat" :       {
+        "temp" : {
+          "min" : -13,
+          "max" : -12,
+          "avg" : -12.5
+        },
+        "humidity" : {
+          "min" : 78,
+          "max" : 84,
+          "avg" : 81
+        },
+        "windSpeed" : {
+          "min" : 28.8,
+          "max" : 32.4,
+          "avg" : 30.6
+        }
+      }
+
+  }
+]
